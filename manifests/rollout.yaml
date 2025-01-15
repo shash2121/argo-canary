@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: argo-app-container
-        image: sha2121/argo-app:2
+        image: sha2121/argo-app:1
         ports:
         - containerPort: 3000
   strategy:
